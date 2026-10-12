@@ -1,4 +1,4 @@
-const C = "chore-quest-v1791737427244";
+const C = "chore-quest-v1791831939063";
 const FILES = ["chores.html", "chores-icon-180.png", "chores-icon-512.png", "chores.webmanifest"];
 self.addEventListener("install", e => { self.skipWaiting(); e.waitUntil(caches.open(C).then(c => c.addAll(FILES)).catch(() => {})); });
 self.addEventListener("activate", e => e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k.startsWith("chore-quest-") && k !== C).map(k => caches.delete(k)))).then(() => self.clients.claim())));
