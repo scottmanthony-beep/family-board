@@ -1,0 +1,22 @@
+{
+  "id": "./",
+  "name": "Family Calendar",
+  "short_name": "Family Calendar",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#11152a",
+  "theme_color": "#11152a",
+  "icons": [
+    {
+      "src": "board-icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "board-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

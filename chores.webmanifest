@@ -1,8 +1,9 @@
 {
+  "id": "chores.html",
   "name": "Chore Quest",
   "short_name": "Chore Quest",
   "start_url": "chores.html",
-  "scope": "./",
+  "scope": "./chores",
   "display": "standalone",
   "background_color": "#eef1fb",
   "theme_color": "#1c7ed6",
